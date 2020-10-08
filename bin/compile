@@ -5,9 +5,3 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 
 source "$BASEDIR/lib/misc_funcs.sh"
-source "$BASEDIR/lib/godot_funcs.sh"
-
-download_godot_headless
-download_godot_templates
-
-export_godot_project
